@@ -15,6 +15,10 @@ for(ele of notRead){
     ele.addEventListener('click',function(){
         this.style.backgroundColor = 'white';
         count--;
+        if(count<0){
+            count=0;
+        } 
+        ele.style.cursor='inherit';
         document.getElementsByClassName('notification-count')[0].innerHTML = count; 
     })
 }

@@ -86,4 +86,8 @@ body{
 }
 .not-read{
     background-color: hsl(211, 68%, 94%);
+   
+}
+.not-read:hover{
+    cursor:pointer;
 }
