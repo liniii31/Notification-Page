@@ -1,0 +1,89 @@
+@import url("https://fonts.google.com/specimen/Plus+Jakarta+Sans");
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    background : hsl(211, 68%, 94%)
+}
+.notification-page{
+    background-color: white;
+    margin :auto;
+    margin-top:3%;
+    width:37%;
+    min-width: 350px;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom:2%;
+}
+.heading{
+    padding:5%;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bolder;
+    font-size:30px;
+    
+}
+.notification-count{  
+    display:inline-block;      
+    width:25px;
+    height:25px;
+    margin-left:2%;
+    background-color: hsl(224, 94%, 12%);
+    font-size:20px;
+    color:white;
+    text-align: center;
+    border-radius:5px;
+}
+.mark-as-read{
+    float: right;
+    font-family: 'Plus Jakarta Sans';
+    font-size:16px;
+    color: gray;
+    padding-top:3%;
+}
+.mark-as-read:hover, .hgl:hover{
+    color:hsl(224, 94%, 12%);
+    font-weight: bold;
+    cursor: pointer;
+}
+.notification{
+    
+    margin:2% 5%;
+    padding :1%;
+    border-radius:10px;
+    display:flex;
+}
+.dp{
+    padding:1%;
+}
+.dp img{
+    size:10px
+}
+.message{
+    padding:1%;
+    padding-top:3%;
+}
+.msg-time{
+    color:grey;
+    font-size:12px;
+    margin-top:1%;
+}
+.msg{
+    background-color:white;
+    padding : 5%;
+    margin-top:2%;
+    border :1px solid lightgrey;
+}
+.hgl{
+    font-weight: bold;
+    color:gray;
+}
+.msg:hover{
+    background-color: hsl(211, 68%, 94%);
+    cursor: pointer;
+}
+.not-read{
+    background-color: hsl(211, 68%, 94%);
+}
