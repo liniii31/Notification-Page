@@ -1,27 +1,29 @@
-# Frontend Mentor - Product preview card component
+# Frontend Mentor - Interactive rating component
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-Thanks for checking out my front-end coding challenge.
+Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
-Build a responsive component for both desktop and mobile versions.
+
+Your challenge is to build out this interactive rating component and get it looking as close to the design as possible.
+
+## Desktop-Design
+
+![desktop](./design/desktop-design.jpg)
+
+## Mobile-Design
+
+![mobile](./design/mobile-design.jpg)
 
 
 
-### Desktop-design
-Layout:1147px
+## Interactive elements:
 
-![Desktop Design](./design/desktop-design.jpg)
-
-
-### Mobile-design
-Layout:375px
-
-![Mobile Design](./design/mobile-design.jpg)
+![state](./design/active-states.jpg)
