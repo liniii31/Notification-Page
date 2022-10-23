@@ -89,3 +89,24 @@ body{
    
 }
 
+@media screen and (max-device-width : 375px){
+    .notification-page{
+        background-color: white;
+        margin :auto;
+        margin-top:3%;
+        width:100%;
+        min-width: 100%;
+        height:auto;
+        border-radius:0;
+        box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+        padding-bottom:2%;
+    }
+    .mark-as-read{
+        float:none;
+        display: block;
+        font-family: 'Plus Jakarta Sans';
+        font-size:16px;
+        color: gray;
+        padding-top:3%;
+    }
+}
